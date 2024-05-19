@@ -1,0 +1,35 @@
+---
+title: "Homerwork 1 - Data Science"
+format: html
+editor: visual
+---
+
+## Part 1 : Questions
+
+-   What do you think being a data scientist is about?
+    -   I think being a data scientists is about bringing a combination statistics and programming to many different types of data to answer business problem.
+-   What differences/similarities do you see between data scientists and statisticians?
+    -   Statisticians mainly focus on modeling, bring data to model, use data that is relatively small in size and clean in text file formats, typically work with structured data, and are usually isolated from production system. Meanwhile, data scientists are mainly focused on business problems and result, bring model to data, need to work with messy and large amounts of data in various formats, work with both structured and unstructured data, and are usually embedded in production system. Both statisticians and data scientists work closely with data.
+-   How do you view yourself in relation to these two areas?
+    -   I think that between the two I would want to be a data scientist. It seems like there would be more of a challenge to wrangle to data as a data scientist since it can be so messy and large. I also like that they are so focused on business problems.
+
+## Part 2 : R Code
+
+```{r partA}
+y <- density(iris$Sepal.Length)
+```
+
+The below displays the class, type, and structure of the object y.
+
+```{r partB}
+class(y)
+typeof(y)
+str(y)
+```
+
+The below is a plot of y.
+
+```{r partC}
+#| echo: false
+plot(y)
+```

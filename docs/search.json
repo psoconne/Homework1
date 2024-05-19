@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Data Science.html",
+    "href": "Data Science.html",
+    "title": "Homerwork 1 - Data Science",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\n\nI think being a data scientists is about bringing a combination statistics and programming to many different types of data to answer business problem.\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\nStatisticians mainly focus on modeling, bring data to model, use data that is relatively small in size and clean in text file formats, typically work with structured data, and are usually isolated from production system. Meanwhile, data scientists are mainly focused on business problems and result, bring model to data, need to work with messy and large amounts of data in various formats, work with both structured and unstructured data, and are usually embedded in production system. Both statisticians and data scientists work closely with data.\n\nHow do you view yourself in relation to these two areas?\n\nI think that between the two I would want to be a data scientist. It seems like there would be more of a challenge to wrangle to data as a data scientist since it can be so messy and large. I also like that they are so focused on business problems."
+  },
+  {
+    "objectID": "Data Science.html#part-1-questions",
+    "href": "Data Science.html#part-1-questions",
+    "title": "Homerwork 1 - Data Science",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\n\nI think being a data scientists is about bringing a combination statistics and programming to many different types of data to answer business problem.\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\nStatisticians mainly focus on modeling, bring data to model, use data that is relatively small in size and clean in text file formats, typically work with structured data, and are usually isolated from production system. Meanwhile, data scientists are mainly focused on business problems and result, bring model to data, need to work with messy and large amounts of data in various formats, work with both structured and unstructured data, and are usually embedded in production system. Both statisticians and data scientists work closely with data.\n\nHow do you view yourself in relation to these two areas?\n\nI think that between the two I would want to be a data scientist. It seems like there would be more of a challenge to wrangle to data as a data scientist since it can be so messy and large. I also like that they are so focused on business problems."
+  },
+  {
+    "objectID": "Data Science.html#part-2-r-code",
+    "href": "Data Science.html#part-2-r-code",
+    "title": "Homerwork 1 - Data Science",
+    "section": "Part 2 : R Code",
+    "text": "Part 2 : R Code\n\ny &lt;- density(iris$Sepal.Length)\n\nThe below displays the class, type, and structure of the object y.\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y        : num [1:512] 0.000232 0.000262 0.000296 0.000333 0.000373 ...\n $ bw       : num 0.274\n $ n        : int 150\n $ call     : language density.default(x = iris$Sepal.Length)\n $ data.name: chr \"iris$Sepal.Length\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nThe below is a plot of y."
+  }
+]
